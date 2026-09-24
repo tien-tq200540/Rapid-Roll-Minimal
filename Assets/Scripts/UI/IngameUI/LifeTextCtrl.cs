@@ -7,7 +7,7 @@ using UnityEngine;
 public class LifeTextCtrl : TienMonoBehaviour
 {
     [SerializeField] protected TextMeshProUGUI lifeText;
-    protected string baseText = "* x ";
+    protected string baseText = "  x ";
 
     protected override void LoadComponents()
     {
